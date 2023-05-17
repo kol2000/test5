@@ -1,0 +1,17 @@
+// Создание массива с числами
+var numbers = [1, 3, 5, 7, 9];
+
+// Использование цикла for для прохода по массиву и вывода чисел
+for (var i = 0; i < numbers.length; i++) {
+  console.log(numbers[i]);
+}
+
+// Создание функции, которая принимает два числа и возвращает их сумму
+function addNumbers(a, b) {
+  var sum = a + b;
+  return sum;
+}
+
+// Использование функции для получения суммы и вывод результата
+var result = addNumbers(8, 4);
+console.log(result);
